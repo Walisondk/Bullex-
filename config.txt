@@ -1,0 +1,45 @@
+[LOGIN]
+email = walisondk@hotmail.com
+senha = naruto3200
+
+[AJUSTES]
+valor_entrada = 5
+tipo = automatico
+stop_win = 1000
+stop_loss = 1000
+analise_medias = N
+velas_medias = 20
+pay_minimo = 80
+usar_filtro_atr = S
+periodo_atr = 14
+multiplicador_atr_min = 0.8
+multiplicador_atr_max = 2.0
+usar_filtro_horario = N
+horarios_bloqueados = 10:00-11:00,15:30-16:30
+usar_filtro_adx = S
+periodo_adx = 14
+nivel_adx_min = 25
+
+[MARTINGALE]
+usar_martingale = S
+niveis_martingale = 12
+fator_martingale = 1.6
+proximo_sinal = S
+
+[SOROS]
+usar_soros = N
+niveis_soros = 2
+
+
+[MACD]
+usar_filtro_macd = S
+fast_period_macd = 12
+slow_period_macd = 26
+signal_period_macd = 9
+
+[BOLLINGER_BANDS]
+usar_filtro_bollinger = S
+periodo_bollinger = 20
+desvios_bollinger = 2
+
+
